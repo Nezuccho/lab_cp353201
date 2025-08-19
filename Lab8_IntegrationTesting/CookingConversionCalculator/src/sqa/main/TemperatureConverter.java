@@ -36,7 +36,7 @@ public class TemperatureConverter {
 		}
 		else if (fromUnit.equals("celsiusfahrenheit")) {
 			if (toUnit.equals("fahrenheit")) {
-				result = (tempValue*(9/5)) + 32;
+				result = (tempValue*(9/5.0)) + 32;
 			} 
 		}
 		
