@@ -77,6 +77,17 @@ public class Driver {
         System.out.println("--------- Unit under test: MassConverter.getConversionFactor() + MassConverter.convert() ------------");
         System.out.println(originalValue + " " + from + " = "+ convertedValue + " " + to);
         
+        //--------- CookingConversionCalculator ------------
+        CookingConversionCalculator converter2 = new CookingConversionCalculator();
+        // 20 kilogram -> 44.1 pound
+        originalValue = 20.0;
+        selectedChoice = "mass";
+		from = "kilogram";
+		to = "pound";
+		 
+		convertedValue = converter2.convert(originalValue, selectedChoice, from, to);
+		System.out.println("--------- Unit under test: CookingConversionCalculator ------------");
+		System.out.println(originalValue + " " + from + " = "+ convertedValue + " " + to);
         
 	
 	}
