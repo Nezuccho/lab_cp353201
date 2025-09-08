@@ -4,4 +4,17 @@
   <artifactId>lab9-test-double</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Lab9 Test Double</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.junit.jupiter</groupId>
+  		<artifactId>junit-jupiter-engine</artifactId>
+  		<version>5.13.4</version>
+  		<scope>test</scope>
+  	</dependency>
+  	<dependency>
+   		<groupId>org.mockito</groupId>
+    	<artifactId>mockito-core</artifactId>
+    	<version>5.19.0</version>
+	</dependency>
+  </dependencies>
 </project>

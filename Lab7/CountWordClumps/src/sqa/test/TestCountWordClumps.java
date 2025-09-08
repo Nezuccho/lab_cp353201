@@ -1,3 +1,5 @@
+//นายพิรัชย์ ชัยรัตน์ 663380223-3 Sec 1
+
 package sqa.test;
 
 import static org.junit.jupiter.api.Assertions.*;
