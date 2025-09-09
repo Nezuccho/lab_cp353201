@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.1 (Python 3.11.8 on win32)" generated="2025-09-09T14:52:34.678536" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="C:\663380223-3\Self\lab_cp353201\Lab10\Starterfiles\Starterfiles\Lab10\test.robot">
+<test id="s1-t1" name="Go To homepage" line="10">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-09-09T14:52:34.807535" level="INFO">Opening browser 'Edge' to base url 'http://www.google.com'.</msg>
+<msg time="2025-09-09T14:52:34.880208" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2025-09-09T14:52:34.880208" level="FAIL">NoSuchDriverException: Message: Unable to obtain driver for MicrosoftEdge; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+</msg>
+<arg>${HOMEPAGE}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2025-09-09T14:52:34.806535" elapsed="0.074672">NoSuchDriverException: Message: Unable to obtain driver for MicrosoftEdge; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+</status>
+</kw>
+<status status="FAIL" start="2025-09-09T14:52:34.806535" elapsed="0.075680">NoSuchDriverException: Message: Unable to obtain driver for MicrosoftEdge; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+</status>
+</test>
+<status status="FAIL" start="2025-09-09T14:52:34.679536" elapsed="0.202679"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test" id="s1" pass="0" fail="1" skip="0">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
